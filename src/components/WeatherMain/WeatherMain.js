@@ -106,7 +106,7 @@ class weatherMain extends Component {
                     </div>
                 </nav>
 
-                    <h3 className="bg-primary text-white">{this.state.city} WEATHER</h3>
+                    <h3 className="bg-primary text-white"> WEATHER</h3>
                     <div className="container" > 
                         
                     <WeatherList stats={this.state.stats}
